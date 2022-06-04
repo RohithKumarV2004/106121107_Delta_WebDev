@@ -40,8 +40,7 @@ function checkAnswer(currentLevel) {
   }else{
     
     console.log("wrong");
-    document.querySelector("#level-title").innerHTML = ("Game Over, your score is " + (level-1));
-    document.querySelector("#level-title").innerHTML = ("Game Over, press any key to restart");
+    document.querySelector("#level-title").innerHTML = ("Game Over, your score is " + (level-1) + ", Press any key to restart the game");
     alert("Game Over!");
     alert("Press any ket to restart the game");
     startOver();
